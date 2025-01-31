@@ -1,7 +1,7 @@
 # rpi-pico2-simpanel
 An open-source button box for simulator use.
 
-STL files are from TinkerCAD.  Links to Tinker This! option are including in the 3d printing section of this document.
+STL files are from [TinkerCAD](https://www.tinkercad.com).  Links to Tinker This! option are including in the 3d printing section of this document.
 
 **Introduction**
 
@@ -20,13 +20,13 @@ I have designed this to be printed easily on pretty much any FDM machine.  The b
 The box can be printed in PLA, ABS, PETG, weedeater line, or whatever else you feed your FDM machine.  Before committing to a 6 hour or more print to make a nice sturdy box, it's worthwhile to print the test-part first to ensure that you have the right size holes to snugly fit your switches of choice.
 
 Test-Fit Model: 
-- TinkerCAD link: https://www.tinkercad.com/things/ilWKCudVXyv/edit?returnTo=%2Fdashboard&sharecode=KZdAHi8J1aMUUtoJdOfRdpk8CTP9DpqL5B3aQJiVsnA
+- [Tinker This!](https://www.tinkercad.com/things/ilWKCudVXyv/edit?returnTo=%2Fdashboard&sharecode=KZdAHi8J1aMUUtoJdOfRdpk8CTP9DpqL5B3aQJiVsnA)
 - Filename: test_fit.stl
 
 This small part allows test-fitting two different size switches.  Adjust and export in TinkerCAD as needed, the switches I used were two different sizes for toggles and momentary buttons... yours may be different.  Once you have confirmed a good fit for your switches, make the needed adjustments to the holes in the TinkerCAD design for the box and export to STL/print.  Ungrouping the completed design ONCE will detach the holes, which are a group of their own.  Ungrouping these will allow you to adjust position and size.
 
 Button-Box Model:
-- TinkerCAD link: https://www.tinkercad.com/things/5mHoQv5xTlQ-buttonbox/edit?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=nY8Vci4_1xVKrHl18sUt108QHbWfSm0StkJ5l9jJreM
+- [Tinker This!](https://www.tinkercad.com/things/5mHoQv5xTlQ-buttonbox/edit?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=nY8Vci4_1xVKrHl18sUt108QHbWfSm0StkJ5l9jJreM)
 - Filename: button_box.stl
 
 Again, the design is intended to print face-down on a glass or patterned bed.  This will help ensure the front panel of your button box looks nice.  The labels adjacent to the button box in CAD are examples of printable labels that can be glued on with a dab of CA (superglue).  You can print these multi-material by pausing/swapping filament, or with a multi-material machine.  You can also print them in a single material and paint the letters in a contrasting color with a paint pen, as I did.
