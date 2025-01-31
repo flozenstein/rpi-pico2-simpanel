@@ -55,8 +55,8 @@ The code I started with is available at [github.com/adafruit/](https://github.co
 
 ```boot.py``` is a bunch of bytecode stuff that is beyond the scope of this document.  There are guides and lookup tools for configuring this.  We want a keyboard, and the example is a keyboard.  copy/paste, the easiest form of programming.
 
-```code.py``` defines the behavior of the keyboard, basically what pin is what keystroke, and if we hold or press/release the key for that pin being grounded.  Remember from the electronics section, when we push a button in this build, it connects the pin in question to electrical ground. 
-
+```code.py``` defines the behavior of the keyboard, basically what pin is what keystroke, and if we hold or press/release the key for that pin being grounded.  Remember from the electronics section, when we push a button in this build, it connects the pin in question to electrical ground.  Here, again things are pretty much copy/paste except for the key mapping and the pins.  We need to make sure the pins defined in the beginning match the pins we've soldered things to.  Next, we need to make sure the keystroke definitions are appropriate.
+[CircuitPython HID keycodes](https://docs.circuitpython.org/projects/hid/en/latest/api.html#adafruit_hid.keycode.Keycode) gives details on the proper keycodes for F13 through F24 and how to send keycodes.
 
 
 **TODO: complete this document and include pictures of assembly process**
