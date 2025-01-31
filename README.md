@@ -13,8 +13,6 @@ Now, the case is 3d printable.  So if you have a home manufactury machine of som
 
 **3d Printing or "Making a box with holes in it"**
 
-The first part of this section will focus primarily on how to 3d print the button box, test-fit parts, and the labels.
-
 I have designed this to be printed easily on pretty much any FDM machine.  The box face is completely flat, and should print as the model is oriented, face-down.  This ensures a nice surface finish on the face you're going to look at most.  I recommend printing it with enough walls and top/bottom layers to make the case basically solid plastic.  This ensures that your mounting points do not become loose over time as infill begins to crack from repeated stress.
 
 The box can be printed in PLA, ABS, PETG, weedeater line, or whatever else you feed your FDM machine.  Before committing to a 6 hour or more print to make a nice sturdy box, it's worthwhile to print the test-part first to ensure that you have the right size holes to snugly fit your switches of choice.
