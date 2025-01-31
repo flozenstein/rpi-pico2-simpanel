@@ -42,6 +42,7 @@ Now, your rpi-pico board should be wired to switch ground.  Meaning you want to 
 Soldering is a good skill to know, as it can allow not only the creation of new devices such as this, but the repair of existing devices.  A simple touch of heat and fresh solder/flux can bring a device back to life that would otherwise be headed for the landfill.  How to solder is beyond the scope of this document, but if you're completely new, I suggest looking up a few tutorials and buying a decent iron.  The absolute bottom cheapest irons are not worth the headache, you *need* a good fine tip and controllable temperature.
 
 **Programming, or "What's that about a snake?"**
+
 The rpi Pico/Pico2 is a great little board that runs CircuitPython... a great little language based on (you guessed it) Python.  I happen to know Python fairly well, I use it at work some and for fun some.  Now, one of the biggest benefits of Python as a language (in my opinion) is "import foo".  Meaning; chances are, whatever you want to do has been done and abstracted into a library.  So for example, if I want to read in data from a CSV file, there is a library for that, and I would load it as "import csv".
 
 Import Foo, or Import-Fu, like software kung fu.
