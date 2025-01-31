@@ -9,7 +9,7 @@ I play a lot of racing games, but also a lot of one specific game, [BeamNG.drive
 
 A friend mentioned that they had an arduino-based button box in their sim rig, and I thought "hey, I could build that, I know arduino and basic electronics".  Then I ordered the wrong arduino boards, did some research and ordered rpi-pico2 boards instead.  It might be overkill for a dozen keys worth of functionality, but it works and it works reliably without having to sort through knockoffs and bad variants of the board.  Just order your rpi pico or pico2 board from a reputable retailer like [Mouser](https://www.mouser.com/) or [Adafruit](https://www.adafruit.com/) and you'll be fine.  
 
-Now, the case is 3d printable, or machinable out of flat stock.  I have included STL files that can be used to generate toolpaths for both methods of constructing the box.  So if you have a home manufactury machine of some variety (or have a friend who does) you should be able to make your own box.  Alternatively you could order a suitable size project box or enclosure from any number of electronics component retailers... again, Mouser or Adafruit are the first two places *I* would look.
+Now, the case is 3d printable.  So if you have a home manufactury machine of some variety (or have a friend who does) you should be able to make your own box.  Alternatively you could order a suitable size project box or enclosure from any number of electronics component retailers... again, Mouser or Adafruit are the first two places *I* would look.
 
 **3d Printing or "Making a box with holes in it"**
 
