@@ -4,7 +4,10 @@ An open-source button box for simulator use.
 STL files are from [TinkerCAD](https://www.tinkercad.com).  Links to Tinker This! option are including in the 3d printing section of this document.
 
 **Introduction**
+
 ![button box 3d render](https://raw.githubusercontent.com/flozenstein/rpi-pico2-simpanel/refs/heads/main/buttonbox.PNG)
+
+
 I play a lot of racing games, but also a lot of one specific game, [BeamNG.drive](https://store.steampowered.com/app/284160/BeamNGdrive/).  Less of a racing sim and more of a vehicular physics sandbox, it offers the ability to free roam large worlds in a variety of vehicles.  From a 4x4 "Go-Devil" powered Jeep type vehicle to a 400 horsepower hatchback with nitrous, the open nature of gameplay in BeamNG provides a need for many control bindings.  I found over the years that I frequently used a specific few key bindings, and that putting down a gamepad or reaching over the steering wheel to hit a keyboard key is... not as fun as mashing a button or flicking a switch. 
 
 A friend mentioned that they had an arduino-based button box in their sim rig, and I thought "hey, I could build that, I know arduino and basic electronics".  Then I ordered the wrong arduino boards, did some research and ordered rpi-pico2 boards instead.  It might be overkill for a dozen keys worth of functionality, but if it works and it works reliably without having to sort through knockoffs and bad variants of the board... well, then it's better.  Just order your rpi pico or pico2 board from a reputable retailer like [Mouser](https://www.mouser.com/) or [Adafruit](https://www.adafruit.com/) and you'll be fine.  
