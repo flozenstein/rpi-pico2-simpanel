@@ -51,7 +51,7 @@ Soldering is a good skill to know, as it can allow not only the creation of new 
 The reason for needing a fine tip and good temperature control:
 ![rpi pico wired to many buttons](https://raw.githubusercontent.com/flozenstein/rpi-pico2-simpanel/refs/heads/main/lots_of_buttons.png)
 
-This is my first iteration of the completed button box with 3 toggles and six momentary buttons.  Each row of buttons shares a ground, and each of the toggles uses its own ground.  Everything else is connecting the GPIO pin side of every button and switch... then coding for how you wired it up.
+This is my first iteration of the completed button box with 3 toggles and six momentary buttons.  Each row of buttons shares a ground, and each of the toggles uses its own ground.  Everything else is connecting the GPIO pin side of every button and switch... then coding for how you wired it up.  The soldering is ugly, I admit... but it works.
 
 **Programming, or "What's that about a snake?"**
 
