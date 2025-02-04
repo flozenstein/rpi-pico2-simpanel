@@ -43,12 +43,14 @@ In the example, we'll be programming this rpi pico board to be a keyboard with 1
 Now, your rpi-pico board should be wired to switch ground.  Meaning you want to connect your switches and buttons between GND or electrical ground, and the IO pins.  Each switch should connect to ground and an IO pin.  You may (if you have many buttons/switches) find that a bit of perfboard works to create a ground bus.  This will permit connecting many switches to a single ground pin on the rpi pico board.  I hear some of you asking "what the heck is ground?  you mean the floor?"  Well, electrically speaking, there is voltage... or potential.  In this case the board runs at five (5) volts (V).  There is also the opposite of that, to put it simply, which is ground or zero (0) volts (V).  When you push the button, electrical contacts come together and connect one side of the switch to the other... this means you're connecting the pin that normally has voltage on it to zero (0) volts (V) when you press the button, which is a state the logic on the board can identify in our code later.
 
 ![rpi pico wired to two buttons](https://raw.githubusercontent.com/flozenstein/rpi-pico2-simpanel/refs/heads/main/buttons.png)
-Shown here is a rpi pico wired to two pushbuttons.  As you can see the black wire of each button connects to a GND pin on the rpi pico, and the red wire connects to a GPIO pin (0 and 4 in this example)
+
+Shown here is a rpi pico2 wired to two pushbuttons.  As you can see the black wire of each button connects to a GND pin on the rpi pico, and the red wire connects to a GPIO pin (0 and 4 in this example)
 
 Soldering is a good skill to know, as it can allow not only the creation of new devices such as this, but the repair of existing devices.  A simple touch of heat and fresh solder/flux can bring a device back to life that would otherwise be headed for the landfill.  How to solder is beyond the scope of this document, but if you're completely new, I suggest looking up a few tutorials and buying a decent iron.  The absolute bottom cheapest irons are not worth the headache, you *need* a good fine tip and controllable temperature.
 
 The reason for needing a fine tip and good temperature control:
 ![rpi pico wired to many buttons](https://raw.githubusercontent.com/flozenstein/rpi-pico2-simpanel/refs/heads/main/lots_of_buttons.png)
+
 This is my first iteration of the completed button box with 3 toggles and six momentary buttons.  Each row of buttons shares a ground, and each of the toggles uses its own ground.  Everything else is connecting the GPIO pin side of every button and switch... then coding for how you wired it up.
 
 **Programming, or "What's that about a snake?"**
