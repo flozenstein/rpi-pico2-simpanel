@@ -173,3 +173,5 @@ while True:
     time.sleep(0.1)
 
 ```
+If you've made it this far, you have built a custom button box.  All that's left is to set up the key bindings in your game.
+
