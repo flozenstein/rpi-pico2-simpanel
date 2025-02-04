@@ -67,7 +67,7 @@ Once you have installed CircuitPython to your rpi pico, you then need to install
 
 ```code.py``` defines the behavior of the keyboard, basically what pin is what keystroke, and if we hold or press/release the key for that pin being grounded.  Remember from the electronics section, when we push a button in this build, it connects the pin in question to electrical ground.  We need to make sure the pins defined in the beginning match the pins we've soldered things to.  Next, we need to make sure the keystroke definitions are appropriate.  ```code.py``` is shown here and could be optimized a great deal if you wanted to.
 
-```
+```python
 import time
 import board
 import digitalio
