@@ -175,3 +175,4 @@ while True:
 ```
 If you've made it this far, you have built a custom button box.  All that's left is to set up the key bindings in your game.
 
+If you want to build a slightly different button box (version 2) using the JoystickXL library I mentioned in the beginning of this document, look in the v2 folder for the STL files and code example.  The code is ugly, and if you're clever I'm sure you can figure out a much better way to do it... but for my use case, it works perfectly.
